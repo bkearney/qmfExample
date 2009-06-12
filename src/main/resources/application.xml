@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE application PUBLIC
+	"-//Sun Microsystems, Inc.//DTD J2EE Application 1.3//EN"
+	"http://java.sun.com/dtd/application_1_3.dtd">
+<application>
+  <display-name>qmfExample</display-name>
+  <module>
+    <ejb>service.jar</ejb>
+  </module>
+  <module>
+  	<java>qpid-client-@qpid.version@.jar</java>
+  	</module>
+  <module>
+  	<java>qpid-common-@qpid.version@.jar</java>
+  </module>  	
+  <module>
+  	<java>qpid-agent-@qpid.version@.jar</java>
+  </module>    
+  <module>
+  	<java>backport-util-concurrent-@concurrent.version@.jar</java>
+  </module>      
+  <module>
+  	<java>commons-lang-@commons.version@.jar</java>
+  </module>        
+  <module>
+  	<java>mina-core-@mina.version@.jar</java>
+  </module>          
+
+</application>

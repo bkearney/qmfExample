@@ -1,0 +1,30 @@
+<schemas>
+	<schema package='qmf.example'>
+		<class name='BaseClass' hash='2b176d46-099f6d07-2153ccb7-00000000'>
+			<property name='name' type='long-string' access='ReadWrite' optional='False' />
+			<property name='description' type='long-string' access='ReadWrite' optional='False' />
+			<property name='stuff' type='list' access='ReadWrite' optional='False' />
+		</class>
+		<class name='DerivedClass' hash='2b176d46-d157c17b-984c18d3-00000000' extends='qmf.example:BaseClass(2b176d46-099f6d07-2153ccb7-00000000)'>
+			<property name='count' type='int32' access='ReadWrite' optional='False' />
+		</class>
+	</schema>
+	<schema package='qmf.example.ejb'>
+		<class name='ExampleService' hash='cb89cbb5-40358e0b-00000000-ff8788f2'>
+			<method name='getBase'> 
+				<arg name='arg0' dir='I' type='long-string' />
+				<arg name='arg1' dir='I' type='long-string' />
+				<arg name='result' dir='O' type='object'  refPackage='qmf.example' refClass='BaseClass'/>
+			</method> 
+			<method name='getDerived'> 
+				<arg name='arg0' dir='I' type='long-string' />
+				<arg name='arg1' dir='I' type='long-string' />
+				<arg name='arg2' dir='I' type='int32' />
+				<arg name='result' dir='O' type='object'  refPackage='qmf.example' refClass='DerivedClass'/>
+			</method> 
+			<method name='findMany'> 
+				<arg name='result' dir='O' type='list' />
+			</method> 
+		</class>
+	</schema>
+</schemas>
