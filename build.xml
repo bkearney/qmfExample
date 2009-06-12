@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="QMF Example" default="build">
+	<property file="build.properties"/>
+	<property name="jar" value="service"/>
+	<property name="jar.file" value="target/${jar}.jar"/>		
+	<property name="ear" value="qmfExample"/>
+	<property name="ear.dir" value="target/${ear}"/>
+	<property name="ear.file" value="target/${ear}.ear"/>	
+	
+	<path id="compile.classpath">
+		<fileset dir="${qpid.home}/java/build/lib">
+			<include name="*.jar"/>
+		</fileset>
+		<fileset dir="${jboss.home}/common/lib">
+			<include name="jboss-javaee.jar"/>
+		</fileset>
+	</path>
+	
+	<target name="init">
+		<mkdir dir="target/classes"/>
+	</target>
+	
+	<target name="clean">
+		<delete dir="target"/>
+	</target>	
+	
+	<target name="build" depends="init">
+		<javac srcdir="src/main/java"
+		       includes="**/*.java"
+		       classpathref="compile.classpath"
+		       destdir="target/classes"/>
+		<jar destfile="${jar.file}"
+		     basedir="target/classes"/>
+		<mkdir dir="${ear.dir}/META-INF/lib"/>
+	    <copy file="src/main/resources/application.xml" todir="target" filtering="true"/>				
+		<copy file="src/main/resources/jboss-beans.xml" todir="${ear.dir}/META-INF"/>		
+		<copy file="${jar.file}" todir="${ear.dir}"/>
+		<copy todir="${ear.dir}">
+			<fileset dir="${qpid.home}/java/build/lib">
+				<include name="qpid-agent-${qpid.version}.jar"/>
+				<include name="qpid-client-${qpid.version}.jar"/>
+				<include name="qpid-common-${qpid.version}.jar"/>
+				<include name="mina-core-${mina.version}.jar"/>
+				<include name="commons-lang-${commons.version}.jar"/>
+				<include name="backport-util-concurrent-${concurrent.version}.jar"/>	
+			</fileset>	
+		</copy>	
+		<ear destfile="${ear.file}" basedir="${ear.dir}" appxml="target/application.xml"/>
+	</target>
+	
+	<target name="install" depends="build">
+		<copy file="${ear.file}" todir="${jboss.home}/server/${jboss.server}/deploy"/>
+	</target>
+		
+</project>
