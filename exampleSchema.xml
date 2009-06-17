@@ -1,18 +1,4 @@
-connectionRef
-label
-registeredTo
-systemId
-brokerBank
-agentBank
 <schemas>
-	<schema package='com.redhat.vdc'>
-	</schema>
-	<schema package='com.redhat.vdc.action'>
-	</schema>
-	<schema package='com.redhat.vdc.queries'>
-	</schema>
-	<schema package='org.apache.test'>
-	</schema>
 	<schema package='qmf.example'>
 		<class name='BaseClass' hash='2b176d46-099f6d07-2153ccb7-00000000'>
 			<property name='name' type='long-string' access='ReadWrite' optional='False' />
@@ -40,7 +26,5 @@ agentBank
 				<arg name='result' dir='O' type='list' />
 			</method> 
 		</class>
-	</schema>
-	<schema package='com.redhat.vdc.domain.entities'>
 	</schema>
 </schemas>

@@ -7,7 +7,7 @@ s = Session()
 br = s.addBroker()
 service = s.getObjects(_class="ExampleService", _package="qmf.example.ejb")[0]
 
-print "Muppet Methods"
+print "Service Methods"
 print service.getMethods()
 
 base = service.getBase("Nathan", "A Cool Dude").result
@@ -21,6 +21,7 @@ print "Derived: ", derived
 print "Derived.name: ", derived.name
 print "Derived.description: ", derived.description
 print "Derived.stuff: ", derived.stuff
+print "Derived.count: ", derived.count
 
 many = service.findMany().result
 print "Many: ", many
