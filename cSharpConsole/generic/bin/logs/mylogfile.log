@@ -5383,3 +5383,163 @@
 2009-06-16 21:19:07,588 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Setting Property Default remoteParentPid
 2009-06-16 21:19:07,595 [-1208989984] DEBUG (null) - Sending message to routing key 'agent.1.181'
 2009-06-16 21:19:07,602 [-1208989984] DEBUG (null) - Sending message to routing key 'agent.1.181'
+2009-06-17 14:07:39,741 [-1208887584] DEBUG (null) - Creating a new Broker for url amqp://localhost:5672
+2009-06-17 14:07:40,181 [-1208887584] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,207 [-1208887584] DEBUG (null) - Waiting to recieve messages
+2009-06-17 14:07:40,230 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,275 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,278 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,280 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,281 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,287 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,291 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,358 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,360 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,362 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,364 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,367 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,369 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,374 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,381 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,383 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,384 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,385 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,386 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,388 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,389 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,415 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,416 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,515 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,517 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,519 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,522 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,526 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,530 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,532 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,534 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,536 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,550 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 14:07:40,553 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qmf:Object(f5523674-8c658f5f-00000000-00000000)
+2009-06-17 14:07:40,555 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:agent(a813b105-63144c05-83d4cbd5-37313d81)
+2009-06-17 14:07:40,559 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:bind(042af49f-eea75cd1-0ac110b0-e0573cab)
+2009-06-17 14:07:40,560 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:binding(d61ac058-85bce5ba-d3369a10-7853c94f)
+2009-06-17 14:07:40,562 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:bridge(74880011-8cafe21b-0f24b084-60412a90)
+2009-06-17 14:07:40,565 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:broker(de8f5ed2-81a47d99-786f2cb7-2ca929b9)
+2009-06-17 14:07:40,567 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:brokerLinkDown(2836ca18-fbcec0ce-ee58b0ab-c6b7f2d4)
+2009-06-17 14:07:40,612 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:brokerLinkUp(231817fb-b79dc812-ec9bbe50-d9c7cd8d)
+2009-06-17 14:07:40,614 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:clientConnect(f59fe634-9c51cfce-b3be63bf-063a0ac2)
+2009-06-17 14:07:40,616 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:clientConnectFail(e65806ac-3a74478f-01902ea6-e6ee21e1)
+2009-06-17 14:07:40,618 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:clientDisconnect(1e8665cf-f24105df-78630c44-c0bb33c6)
+2009-06-17 14:07:40,620 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:connection(bd9eb47f-44f03d9c-8756d142-8524e54b)
+2009-06-17 14:07:40,622 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:exchange(ca66d754-aba5bfe1-467b0153-1cdf8402)
+2009-06-17 14:07:40,626 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:exchangeDeclare(ac64abd6-494c5950-5d78289e-42c15307)
+2009-06-17 14:07:40,628 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:exchangeDelete(3dc35f89-ec32a279-7d533546-9efaa0cf)
+2009-06-17 14:07:40,696 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:link(627fbfee-e867f69a-4127ce0f-03030be7)
+2009-06-17 14:07:40,699 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:queue(52f52585-4e4af75c-caede120-275c6ea3)
+2009-06-17 14:07:40,701 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:queueDeclare(a227e1d0-a1cd444d-3a3c76e6-4af7a9d7)
+2009-06-17 14:07:40,704 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:queueDelete(fb1ce712-c041d774-102d32d7-1666574b)
+2009-06-17 14:07:40,706 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:session(9a57d0d2-8b178c84-4fac5c9a-96c2cf75)
+2009-06-17 14:07:40,712 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:subscribe(fbe18f36-6e5034d4-5f4c4135-8a379942)
+2009-06-17 14:07:40,714 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:system(92f7522b-188882d7-49ea668d-b4c5ea0b)
+2009-06-17 14:07:40,716 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:unbind(70163d9d-b5148d7c-9ea41738-43d6358a)
+2009-06-17 14:07:40,756 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:unsubscribe(37be0dbf-c1e05a79-a99bbcfc-5f2499a1)
+2009-06-17 14:07:40,757 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:vhost(14a3fa67-8ae28988-cd9440ef-630d1b49)
+2009-06-17 14:07:40,759 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: qmf.example:BaseClass(2b176d46-099f6d07-2153ccb7-00000000)
+2009-06-17 14:07:40,760 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: qmf.example:DerivedClass(2b176d46-d157c17b-984c18d3-00000000)
+2009-06-17 14:07:40,761 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: qmf.example.ejb:ExampleService(cb89cbb5-40358e0b-00000000-ff8788f2)
+2009-06-17 14:07:40,765 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Setting Topic Binding schema.#
+2009-06-17 14:07:40,770 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Setting Topic Binding console.#
+2009-06-17 14:07:40,782 [-1208887584] DEBUG (null) - Get Object Keys: 
+2009-06-17 14:07:40,784 [-1208887584] DEBUG (null) - 	Key: '_class' Value: 'agent'
+2009-06-17 14:07:40,784 [-1208887584] DEBUG (null) - Sending message to routing key 'agent.1.0'
+2009-06-17 14:07:40,813 [-1208887584] DEBUG (null) - Get Object Keys: 
+2009-06-17 14:07:40,813 [-1208887584] DEBUG (null) - 	Key: '_class' Value: 'ExampleService'
+2009-06-17 14:07:40,814 [-1208887584] DEBUG (null) - 	Key: '_package' Value: 'qmf.example.ejb'
+2009-06-17 14:07:40,814 [-1208887584] DEBUG (null) - Sending message to routing key 'agent.1.184'
+2009-06-17 14:07:40,815 [-1208887584] DEBUG (null) - Get Object Keys: 
+2009-06-17 14:07:40,815 [-1208887584] DEBUG (null) - 	Key: '_class' Value: 'ExampleService'
+2009-06-17 14:07:40,815 [-1208887584] DEBUG (null) - 	Key: '_package' Value: 'qmf.example.ejb'
+2009-06-17 14:07:40,816 [-1208887584] DEBUG (null) - Sending message to routing key 'agent.1.0'
+2009-06-17 14:07:40,861 [-1208887584] DEBUG (null) - Sending message to routing key 'agent.1.184'
+2009-06-17 14:07:40,954 [-1208887584] DEBUG (null) - Sending message to routing key 'agent.1.184'
+2009-06-17 14:07:41,004 [-1208887584] DEBUG (null) - Sending message to routing key 'agent.1.184'
+2009-06-17 16:35:08,699 [-1207466272] DEBUG (null) - Creating a new Broker for url amqp://localhost:5672
+2009-06-17 16:35:08,994 [-1207466272] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,010 [-1207466272] DEBUG (null) - Waiting to recieve messages
+2009-06-17 16:35:09,036 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,076 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,080 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,085 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,088 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,104 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,106 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,107 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,108 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,112 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,115 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,117 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,119 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,120 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,122 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,123 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,124 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,126 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,127 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,128 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,129 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,131 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,132 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,133 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,135 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,136 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,138 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,141 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,144 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,145 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,146 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,148 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,149 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Sending message to routing key 'broker'
+2009-06-17 16:35:09,153 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qmf:Object(f5523674-8c658f5f-00000000-00000000)
+2009-06-17 16:35:09,160 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:agent(a813b105-63144c05-83d4cbd5-37313d81)
+2009-06-17 16:35:09,164 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:bind(042af49f-eea75cd1-0ac110b0-e0573cab)
+2009-06-17 16:35:09,166 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:binding(d61ac058-85bce5ba-d3369a10-7853c94f)
+2009-06-17 16:35:09,169 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:bridge(74880011-8cafe21b-0f24b084-60412a90)
+2009-06-17 16:35:09,173 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:broker(de8f5ed2-81a47d99-786f2cb7-2ca929b9)
+2009-06-17 16:35:09,176 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:brokerLinkDown(2836ca18-fbcec0ce-ee58b0ab-c6b7f2d4)
+2009-06-17 16:35:09,177 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:brokerLinkUp(231817fb-b79dc812-ec9bbe50-d9c7cd8d)
+2009-06-17 16:35:09,178 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:clientConnect(f59fe634-9c51cfce-b3be63bf-063a0ac2)
+2009-06-17 16:35:09,179 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:clientConnectFail(e65806ac-3a74478f-01902ea6-e6ee21e1)
+2009-06-17 16:35:09,181 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:clientDisconnect(1e8665cf-f24105df-78630c44-c0bb33c6)
+2009-06-17 16:35:09,183 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:connection(bd9eb47f-44f03d9c-8756d142-8524e54b)
+2009-06-17 16:35:09,185 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:exchange(ca66d754-aba5bfe1-467b0153-1cdf8402)
+2009-06-17 16:35:09,186 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:exchangeDeclare(ac64abd6-494c5950-5d78289e-42c15307)
+2009-06-17 16:35:09,188 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:exchangeDelete(3dc35f89-ec32a279-7d533546-9efaa0cf)
+2009-06-17 16:35:09,189 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:link(627fbfee-e867f69a-4127ce0f-03030be7)
+2009-06-17 16:35:09,190 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:queue(52f52585-4e4af75c-caede120-275c6ea3)
+2009-06-17 16:35:09,192 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:queueDeclare(a227e1d0-a1cd444d-3a3c76e6-4af7a9d7)
+2009-06-17 16:35:09,194 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:queueDelete(fb1ce712-c041d774-102d32d7-1666574b)
+2009-06-17 16:35:09,195 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:session(9a57d0d2-8b178c84-4fac5c9a-96c2cf75)
+2009-06-17 16:35:09,198 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:subscribe(fbe18f36-6e5034d4-5f4c4135-8a379942)
+2009-06-17 16:35:09,199 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:system(92f7522b-188882d7-49ea668d-b4c5ea0b)
+2009-06-17 16:35:09,200 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:unbind(70163d9d-b5148d7c-9ea41738-43d6358a)
+2009-06-17 16:35:09,203 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:unsubscribe(37be0dbf-c1e05a79-a99bbcfc-5f2499a1)
+2009-06-17 16:35:09,205 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: org.apache.qpid.broker:vhost(14a3fa67-8ae28988-cd9440ef-630d1b49)
+2009-06-17 16:35:09,206 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: qmf.example:BaseClass(2b176d46-099f6d07-2153ccb7-00000000)
+2009-06-17 16:35:09,207 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: qmf.example:DerivedClass(2b176d46-d157c17b-984c18d3-00000000)
+2009-06-17 16:35:09,208 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - New schema class ClassKey: qmf.example.ejb:ExampleService(cb89cbb5-40358e0b-00000000-ff8788f2)
+2009-06-17 16:35:09,210 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Setting Topic Binding schema.#
+2009-06-17 16:35:09,212 [IoReceiver - System.Net.Sockets.NetworkStream] DEBUG (null) - Setting Topic Binding console.#
+2009-06-17 16:35:09,218 [-1207466272] DEBUG (null) - Get Object Keys: 
+2009-06-17 16:35:09,219 [-1207466272] DEBUG (null) - 	Key: '_class' Value: 'agent'
+2009-06-17 16:35:09,219 [-1207466272] DEBUG (null) - Sending message to routing key 'agent.1.0'
+2009-06-17 16:35:09,236 [-1207466272] DEBUG (null) - Get Object Keys: 
+2009-06-17 16:35:09,236 [-1207466272] DEBUG (null) - 	Key: '_class' Value: 'ExampleService'
+2009-06-17 16:35:09,236 [-1207466272] DEBUG (null) - 	Key: '_package' Value: 'qmf.example.ejb'
+2009-06-17 16:35:09,237 [-1207466272] DEBUG (null) - Sending message to routing key 'agent.1.184'
+2009-06-17 16:35:09,237 [-1207466272] DEBUG (null) - Get Object Keys: 
+2009-06-17 16:35:09,238 [-1207466272] DEBUG (null) - 	Key: '_class' Value: 'ExampleService'
+2009-06-17 16:35:09,238 [-1207466272] DEBUG (null) - 	Key: '_package' Value: 'qmf.example.ejb'
+2009-06-17 16:35:09,238 [-1207466272] DEBUG (null) - Sending message to routing key 'agent.1.0'
+2009-06-17 16:35:09,284 [-1207466272] DEBUG (null) - Sending message to routing key 'agent.1.184'
+2009-06-17 16:35:09,340 [-1207466272] DEBUG (null) - Sending message to routing key 'agent.1.184'
+2009-06-17 16:35:09,389 [-1207466272] DEBUG (null) - Sending message to routing key 'agent.1.184'

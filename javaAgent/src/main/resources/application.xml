@@ -14,7 +14,7 @@
   	<java>qpid-common-@qpid.version@.jar</java>
   </module>  	
   <module>
-  	<java>qpid-agent-@qpid.version@.jar</java>
+  	<java>qpid-management-agent-@qpid.version@.jar</java>
   </module>    
   <module>
   	<java>backport-util-concurrent-@concurrent.version@.jar</java>

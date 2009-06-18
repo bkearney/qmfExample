@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deployment xmlns="urn:jboss:bean-deployer:2.0">    
 
-	<bean name="QPIDConnection" class="org.apache.qpid.client.AMQConnection">
+	<bean name="ExampleQPIDConnection" class="org.apache.qpid.client.AMQConnection">
 		<constructor>
 			<parameter>amqp://guest:guest@/?brokerlist='tcp://localhost'</parameter>
 		</constructor>
 	</bean>
 	
-    <bean name="ServiceBean" class="org.apache.qpid.agent.ManagedEJB">
+    <bean name="ExampleServiceBean" class="org.apache.qpid.agent.ManagedEJB">
         <property name="name">ServiceBean</property>
         <property name="className">qmf.example.ejb.ServiceClassBean</property>        
         <property name="jndiLocation">qmfExample/ServiceBean/local</property>
     </bean>	    
 
-	<bean name="QMFAgent" class="org.apache.qpid.agent.Agent">
+	<bean name="ExampleQMFAgent" class="org.apache.qpid.agent.Agent">
 		<property name="label">agent</property>
 		<property name="sessionTransacted">false</property>
 		<property name="connection">
-			<inject bean="QPIDConnection" />
+			<inject bean="ExampleQPIDConnection" />
 		</property>
 		<property name="managedObjects">
 			<list elementClass="org.apache.qpid.agent.ManagedObject">
-				<inject bean="ServiceBean" />		
+				<inject bean="ExampleServiceBean" />		
 			</list>
 		</property>
 		<property name="registeredClasses">

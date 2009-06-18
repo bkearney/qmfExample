@@ -32,12 +32,13 @@
 		<jar destfile="${jar.file}"
 		     basedir="target/classes"/>
 		<mkdir dir="${ear.dir}/META-INF/lib"/>
-	    <copy file="src/main/resources/application.xml" todir="target" filtering="true"/>				
+	        <filter filtersfile="build.properties"/>
+	        <copy file="src/main/resources/application.xml" todir="target" filtering="true"/>				
 		<copy file="src/main/resources/jboss-beans.xml" todir="${ear.dir}/META-INF"/>		
 		<copy file="${jar.file}" todir="${ear.dir}"/>
 		<copy todir="${ear.dir}">
 			<fileset dir="${qpid.home}/java/build/lib">
-				<include name="qpid-agent-${qpid.version}.jar"/>
+				<include name="qpid-management-agent-${qpid.version}.jar"/>
 				<include name="qpid-client-${qpid.version}.jar"/>
 				<include name="qpid-common-${qpid.version}.jar"/>
 				<include name="mina-core-${mina.version}.jar"/>
