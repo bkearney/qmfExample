@@ -1,12 +1,12 @@
 <schemas>
 	<schema package='qmf.example'>
 		<class name='BaseClass' hash='2b176d46-099f6d07-2153ccb7-00000000'>
-			<property name='name' type='long-string' access='ReadWrite' optional='False' />
-			<property name='description' type='long-string' access='ReadWrite' optional='False' />
-			<property name='stuff' type='list' access='ReadWrite' optional='False' />
+			<property name='name' type='long-string' access='RW' optional='False' />
+			<property name='description' type='long-string' access='RW' optional='False' />
+			<property name='stuff' type='list' access='RW' optional='False' />
 		</class>
 		<class name='DerivedClass' hash='2b176d46-d157c17b-984c18d3-00000000' extends='qmf.example:BaseClass(2b176d46-099f6d07-2153ccb7-00000000)'>
-			<property name='count' type='int32' access='ReadWrite' optional='False' />
+			<property name='count' type='int32' access='RW' optional='False' />
 		</class>
 	</schema>
 	<schema package='qmf.example.ejb'>
