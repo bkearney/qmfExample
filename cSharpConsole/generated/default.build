@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<project name="csharpQMFExample" default="build">
+
+    <property name="qpid.dir" value="/home/bkearney/qpid/qpid"/>
+    <property name="build.debug" value="true" />
+    <property name="build.config" value="debug" />    
+    <property name="build.defines" value="DEBUG;TRACE"/>   
+    <property name="build.dir" value="${qpid.dir}/dotnet/client-010/bin/${framework::get-target-framework()}/${build.config}" />
+     
+
+    <target name="build">
+        <mkdir dir="./bin"/>
+        <csc target="exe" 
+				define="${build.defines}" 
+				debug="${build.debug}" 
+				output="./bin/QmfExample.exe">
+			
+			<sources>
+			   <include name="***.cs" />
+         </sources>
+         <references>
+            <include name="${build.dir}/log4net.dll" />	
+	        <include name="${build.dir}/qpid.console.dll" />
+	        <include name="${build.dir}/qpid.client.dll" />	              
+         </references>
+        </csc>         
+    </target>
+
+    <target name="clean">
+        <delete dir="./bin"/>
+    </target>
+</project>
