@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="QMF Example" default="build">
+	<property file="build.properties"/>
+	<property name="jar" value="testConsole"/>
+	<property name="jar.file" value="target/${jar}.jar"/>		
+	
+	<path id="compile.classpath">
+		<fileset dir="${qpid.home}/java/build/lib">
+			<include name="*.jar"/>
+		</fileset>
+		<fileset dir="${jboss.home}/common/lib">
+			<include name="jboss-javaee.jar"/>
+		</fileset>
+	</path>
+	
+	<target name="init">
+		<mkdir dir="target/classes"/>
+	</target>
+	
+	<target name="clean">
+		<delete dir="target"/>
+	</target>	
+	
+	<target name="build" depends="init">
+		<javac srcdir="src/main/java"
+		       includes="**/*.java"
+		       classpathref="compile.classpath"
+		       destdir="target/classes"/>
+		<jar destfile="${jar.file}"
+		     basedir="target/classes"
+		     excludes="**/*.properties"/>
+		<copy todir="target">
+			<fileset dir="${qpid.home}/java/build/lib">
+				<include name="qpid-client-${qpid.version}.jar"/>
+				<include name="qpid-management-console-${qpid.version}.jar"/>                
+				<include name="qpid-common-${qpid.version}.jar"/>
+				<include name="mina-core-${mina.version}.jar"/>
+				<include name="slf4j-api-${slf4j.version}.jar"/>
+                <include name="slf4j-log4j12-${slf4j.version}.jar"/>
+                <include name="log4j-${log4j.version}.jar"/>        
+				<include name="backport-util-concurrent-${concurrent.version}.jar"/>
+                <include name="commons-*.jar"/>
+			</fileset>
+            <fileset dir="${jboss.home}/common/lib">
+                <include name="jboss-javaee.jar"/>
+            </fileset>
+            <fileset dir="src/main/java/qmf/example/console">
+                <include name="*.properties"/>
+            </fileset>  
+		</copy>	             
+	</target>
+
+    <target name="run" depends="build">
+        <java classname="qmf.example.console.TestConsole" fork="yes">
+                   
+            <classpath>
+                <pathelement path="./target"/>
+                <fileset dir="target">
+                    <include name="*.properties"/>                    
+                    <include name="*.jar"/>
+                </fileset>
+            </classpath>
+        </java>
+    </target>
+	
+</project>
