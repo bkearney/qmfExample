@@ -25,28 +25,28 @@ public class TestConsole
         QMFObject baseObject = (QMFObject) result.getReturnValue("result");
         System.out.println(String.format("Base: %s", baseObject));
         System.out.println(String.format("Base.name: %s", baseObject
-                .GetProperty("name")));
+                .getProperty("name")));
         System.out.println(String.format("Base.description: %s", baseObject
-                .GetProperty("description")));
+                .getProperty("description")));
         System.out.println(String.format("Base.stuff: %s", baseObject
-                .GetProperty("stuff")));
+                .getProperty("stuff")));
         result = service.invokeMethod("getDerived", "Gillian",
                 "A Cool Dudette", 99);
         QMFObject derivedObject = (QMFObject) result.getReturnValue("result");
         System.out.println(String.format("Derived: %s", derivedObject));
         System.out.println(String.format("Derived.name: %s", derivedObject
-                .GetProperty("name")));
+                .getProperty("name")));
         System.out.println(String.format("Derived.description: %s",
-                derivedObject.GetProperty("description")));
+                derivedObject.getProperty("description")));
         System.out.println(String.format("Derived.stuff: %s", derivedObject
-                .GetProperty("stuff")));
+                .getProperty("stuff")));
         System.out.println(String.format("Derived.count: %s", derivedObject
-                .GetProperty("count")));
+                .getProperty("count")));
         result = service.invokeMethod("findMany");
         List<Object> many = (List<Object>) result.getReturnValue("result");
         System.out.println(String.format("Many: %s", many));
         System.out.println(String.format("Many.stuff: %s", ((QMFObject) many
-                .get(0)).GetProperty("stuff")));
+                .get(0)).getProperty("stuff")));
         
          String[] packages = {"qmf.example", "qmf.example.ejb"} ;
          System.out.println(XMLUtil.schemaXML(session, packages)) ;
