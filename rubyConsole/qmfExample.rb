@@ -22,3 +22,7 @@ puts "Derived.count: " << derived.count.to_s
 many = service.findMany().result
 puts "Many: ", many
 puts "Many[0].stuff", many[0].stuff
+
+puts("Schema")
+puts("------")
+puts(Qpid::Qmf::XML.schema_xml(s, "qmf.example", "qmf.example.ejb"))
